@@ -13,8 +13,11 @@ function App() {
         contact = {{name: "Mr Anderson", company: "Target", phone: "(909) 123-5555" }}
         />
       <hr></hr>
-<ContactCard
+      <ContactCard
         contact = {{name: "Ms Smith", company: "Instacart", phone: "(909) 123-5555" }}
+        />
+        <ContactCard
+        contact = {{ company: "Instacart", phone: "(909) 123-5555" }}
         />
         
     </div>
